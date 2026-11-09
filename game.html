@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>VIWEL</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="nav">
+      <a class="brand" href="index.html">VIWEL</a>
+      <nav class="nav-links">
+        <a href="index.html">Dashboard</a>
+        <a href="terms.html">Terms</a>
+        <a href="game.html" aria-current="page">Play</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1 id="title">VIWEL</h1>
+      <p class="sub">
+        Read the definition and guess the term. You have 5 tries, and new hints
+        unlock as you progress!
+      </p>
+
+      <div class="clue">
+        <div class="badge" id="topic"></div>
+        <p id="definition"></p>
+      </div>
+
+      <div class="hints" id="hints" aria-live="polite" hidden></div>
+
+      <div id="board"></div>
+      <div id="message" role="status"></div>
+      <div id="keyboard"></div>
+      <p id="progress"></p>
+      <button class="btn" id="next" hidden>Next word (Enter)</button>
+      <a class="btn secondary" href="terms.html">View terms</a>
+    </main>
+    <script src="data/words.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/game.js"></script>
+  </body>
+</html>

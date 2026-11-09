@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dashboard - VIWEL</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="nav">
+      <a class="brand" href="index.html">VIWEL</a>
+      <nav class="nav-links">
+        <a href="index.html" aria-current="page">Dashboard</a>
+        <a href="terms.html">Terms</a>
+        <a href="game.html">Play</a>
+      </nav>
+    </header>
+
+    <div class="page">
+      <h1>Welcome!</h1>
+      <p class="sub" id="intro"></p>
+
+      <div class="actions">
+        <a class="btn" href="game.html">Play</a>
+        <a class="btn secondary" href="terms.html">Browse the terms</a>
+      </div>
+
+      <div class="streak-card" id="streak-card"></div>
+      <div class="stats" id="stats"></div>
+
+      <h2 class="section-title">Words to review</h2>
+      <p class="sub" id="review-note"></p>
+      <div class="review-list" id="review-list"></div>
+
+      <button class="link-btn" id="reset">Reset my progress</button>
+    </div>
+    <script src="data/words.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/dashboard.js"></script>
+  </body>
+</html>
