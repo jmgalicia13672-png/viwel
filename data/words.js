@@ -72,7 +72,7 @@ const BRANCH = {
     {
       term: "First law of thermodynamics",
       answer: "First law",
-      def: "Energy conservation: change in internal energy equals heat added minus work done.",
+      def: "A change in internal energy equals heat added minus work done.",
       scenario: "A bike pump gets warm as you push the plunger in: the effort you put in has to show up somewhere.",
       photos: [
         { src: "images/thermo/first-law-of-thermodynamics-1.jpg", caption: "A person using a bicycle pump" },
